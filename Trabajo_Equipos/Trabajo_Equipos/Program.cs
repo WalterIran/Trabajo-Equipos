@@ -16,7 +16,7 @@ namespace Trabajo_Equipos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FRM_Principal());
         }
     }
 }

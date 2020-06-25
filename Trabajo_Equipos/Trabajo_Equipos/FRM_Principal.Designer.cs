@@ -1,6 +1,6 @@
 ﻿namespace Trabajo_Equipos
 {
-    partial class Form1
+    partial class FRM_Principal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
