@@ -9,5 +9,6 @@ namespace Trabajo_Equipos
     public class CLS_Libros
     {
         private string autor;
+        private int numeroPaginas;
     }
 }
