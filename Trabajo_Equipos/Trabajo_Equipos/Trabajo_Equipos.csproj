@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CLS_Libros.cs" />
+    <Compile Include="CLS_Texto.cs" />
     <Compile Include="FRM_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
