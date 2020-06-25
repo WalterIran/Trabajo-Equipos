@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Trabajo_Equipos
 {
-    public partial class Form1 : Form
+    public partial class FRM_Principal : Form
     {
-        public Form1()
+        public FRM_Principal()
         {
             InitializeComponent();
         }
