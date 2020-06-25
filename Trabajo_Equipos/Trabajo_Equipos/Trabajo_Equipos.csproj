@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CLS_Cuento.cs" />
     <Compile Include="CLS_Libros.cs" />
+    <Compile Include="CLS_Novela.cs" />
     <Compile Include="CLS_Texto.cs" />
+    <Compile Include="CLS_Validaciones.cs" />
     <Compile Include="FRM_Principal.cs">
       <SubType>Form</SubType>
     </Compile>

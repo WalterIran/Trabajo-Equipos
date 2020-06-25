@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Trabajo_Equipos
 {
-    class CLS_Texto
+    public class CLS_Texto:CLS_Libros
     {
+        private string[] materiaTexto = new string[] {"Matemáticas","Computación" };
+        private string autor;
+        private string editorial;
     }
 }
