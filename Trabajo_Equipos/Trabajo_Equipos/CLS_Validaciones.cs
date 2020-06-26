@@ -18,7 +18,7 @@ namespace Trabajo_Equipos
             {
                 foreach(char caracter in txt[i].Text)
                 {
-                    if(!Char.IsLetter(caracter))
+                    if(!Char.IsWhiteSpace(caracter) && !Char.IsLetter(caracter))
                     {
                         soloLetras = false;
                         ubicacionError.SetError(txt[i], "Ingrese letras en este campo");
