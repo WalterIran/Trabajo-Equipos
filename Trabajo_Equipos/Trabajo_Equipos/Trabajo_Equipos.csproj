@@ -51,16 +51,34 @@
     <Compile Include="CLS_Novela.cs" />
     <Compile Include="CLS_Texto.cs" />
     <Compile Include="CLS_Validaciones.cs" />
+    <Compile Include="FRM_Factura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Factura.Designer.cs">
+      <DependentUpon>FRM_Factura.cs</DependentUpon>
+    </Compile>
     <Compile Include="FRM_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FRM_Principal.Designer.cs">
       <DependentUpon>FRM_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FRM_Texto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Texto.Designer.cs">
+      <DependentUpon>FRM_Texto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FRM_Factura.resx">
+      <DependentUpon>FRM_Factura.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FRM_Principal.resx">
       <DependentUpon>FRM_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Texto.resx">
+      <DependentUpon>FRM_Texto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

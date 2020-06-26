@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,6 +13,8 @@ namespace Trabajo_Equipos
 {
     public partial class FRM_Principal : Form
     {
+        FRM_Factura frmfactura = new FRM_Factura();
+
         public FRM_Principal()
         {
             InitializeComponent();
@@ -31,7 +34,11 @@ namespace Trabajo_Equipos
                 && validacion.SoloLetras(errorProvider,textoLetras, cantTxtLetras))
             {
                 MessageBox.Show("Listo");
+                frmfactura.ShowDialog();
             }
+
+            
+
         }
     }
 }
