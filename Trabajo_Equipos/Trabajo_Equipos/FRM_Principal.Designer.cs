@@ -118,6 +118,7 @@
             this.dateTimePicker_Nacimiento.Size = new System.Drawing.Size(245, 22);
             this.dateTimePicker_Nacimiento.TabIndex = 8;
             this.dateTimePicker_Nacimiento.Value = new System.DateTime(2002, 12, 31, 0, 0, 0, 0);
+            this.dateTimePicker_Nacimiento.ValueChanged += new System.EventHandler(this.dateTimePicker_Nacimiento_ValueChanged);
             // 
             // btn_Limpiar
             // 
@@ -128,6 +129,7 @@
             this.btn_Limpiar.TabIndex = 9;
             this.btn_Limpiar.Text = "Limpiar";
             this.btn_Limpiar.UseVisualStyleBackColor = true;
+            this.btn_Limpiar.Click += new System.EventHandler(this.btn_Limpiar_Click);
             // 
             // errorProvider
             // 
@@ -135,8 +137,8 @@
             // 
             // FRM_Principal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(545, 387);
             this.Controls.Add(this.btn_Limpiar);
             this.Controls.Add(this.dateTimePicker_Nacimiento);
@@ -150,6 +152,7 @@
             this.Name = "FRM_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Datos del Cliente";
+            this.Load += new System.EventHandler(this.FRM_Principal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
