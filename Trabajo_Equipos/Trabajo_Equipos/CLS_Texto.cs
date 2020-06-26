@@ -8,7 +8,7 @@ namespace Trabajo_Equipos
 {
     public class CLS_Texto:CLS_Libros
     {
-        private string[] materiaTexto = new string[] {"Matemáticas","Computación" };
+        public string[] materiaTexto = new string[] {"Matemáticas","Computación" };
         private string autor;
         private string editorial;
     }
