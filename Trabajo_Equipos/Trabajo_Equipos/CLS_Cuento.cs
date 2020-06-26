@@ -8,5 +8,6 @@ namespace Trabajo_Equipos
 {
     class CLS_Cuento
     {
+        private string[] generoCuento = new string[] { "Hada", "Romantico", "Historico" };
     }
 }

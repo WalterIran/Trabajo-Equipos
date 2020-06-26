@@ -15,6 +15,23 @@ namespace Trabajo_Equipos
         public FRM_Principal()
         {
             InitializeComponent();
+            dateTimePicker_Nacimiento.MaxDate = DateTime.Now.AddYears(-18);
+        }
+
+        CLS_Validaciones validacion = new CLS_Validaciones();
+        const int cantTxtNumeros = 1;
+        const int cantTxtLetras = 1;
+
+        private void btn_Ingresar_Click(object sender, EventArgs e)
+        {
+            TextBox[] textoLetras = new TextBox[] { txt_NombreCliente};
+            TextBox[] textoNumeros = new TextBox[] { txt_NumTelefono };
+
+            if (validacion.soloNumeros(errorProvider, textoNumeros, cantTxtNumeros)
+                && validacion.SoloLetras(errorProvider,textoLetras, cantTxtLetras))
+            {
+                MessageBox.Show("Listo");
+            }
         }
     }
 }
