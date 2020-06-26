@@ -12,7 +12,7 @@ namespace Trabajo_Equipos
 {
     public partial class FRM_Factura : Form
     {
-
+        //comentario
         CLS_Texto libro = new CLS_Texto();
 
         public FRM_Factura()
